@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #000;
+        }
+
+        .animate {
+            width: 60px;
+            height: 120px;
+            border-radius: 10px;
+            background: #ccc;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transform-origin: center center;
+            ;
+            transform: rotate(180deg)
+        }
+
+        .animate>div {
+            width: 60px;
+            border-radius: 10px;
+            animation: animate 30s linear infinite;
+            transform: rotate(0deg)
+        }
+
+        @keyframes animate {
+            0% {
+                height: 1%;
+                background: #e84118;
+            }
+
+            100% {
+                height: 100%;
+                background: #4cd137
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="animate">
+        <div></div>
+    </div>
+</body>
+
+</html>

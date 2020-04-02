@@ -1,0 +1,59 @@
+.bg-menubar{
+    background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+.w-input{
+    width: 25%;
+    text-align: center;
+}
+.w-row{
+    width: 100%;
+}
+.img-fluid{
+    transition:0.5s;
+}
+.img-fluid:hover{
+    transform: scale(1.1);
+}.w-input2{
+     width: 10%;
+     text-align: center;
+     padding: 0;
+ }
+ .myinput-w{
+     width: 0.8rem;
+     height:1.5rem
+ }
+ .input-group-text{
+     width: 50%;
+ }
+ .my-cart-btn{
+     width: 0.8rem;
+ }
+ .inputsize{
+     width: 2.4rem;
+ }
+ .w{
+     width: 90%;
+ }
+ .font-size{
+     font-size: 1.2rem;
+ }
+.btn-outline-primary{
+    background-color: transparent;
+    border-color:#ddd;
+    background-image:none;
+    color:#080808;
+    margin: 0.2rem;
+}
+.btn-outline-primary:hover{
+    background: transparent;
+    background-image: none;
+    color:#080808;
+    /*outline: none;*/
+}
+.size{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.liw{
+    width: 10.2rem;
+}

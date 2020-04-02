@@ -1,0 +1,100 @@
+body{
+    max-width:540px;
+    min-width:320px;
+    margin:0 auto;
+    font:normal 14px/1.5 Tahoma,"Lucida Grande",Verdana,"Microsoft Yahei",STXihei,hei;
+    color:#000;
+    background: #f2f2f2;
+    overflow-x:hidden;
+    -webkit-tap-highlight-color:transparent;
+}
+a{
+    text-decoration:none;
+    color:#222;
+    font-size: 0.75rem;
+}
+div{
+    box-sizing:border-box;
+}
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* 搜索模块 */
+.search-index{
+    position: fixed;
+    top:0;
+    left:50%;
+    width: 100%;
+    max-width:540px;
+    min-width:320px;
+    height: 44px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    display:flex;
+    background-color: #f6f6f6;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.search-index>.user{
+    width: 44px;
+    height: 44px;
+    font-size:12px;
+    text-align: center;
+    color:#666;
+}
+.search{
+    flex:1;
+
+}
+.user::before{
+content:"";
+display:block;
+width: 22px;
+height: 22px;
+background:url(../images/home-common-sprite2x@v7.15.png) no-repeat 0 -78px;
+background-size:22px auto ;
+margin:3px auto 0;
+}
+.search{
+    height: 26px;
+    border:1px solid #ccc;
+    margin:10px 10px;
+    border-radius:12px;
+    position: relative;
+    font-size:12px;
+    line-height:24px;
+    padding-left: 25px;
+    color:#666;
+    box-shadow:0 2px 4px rgba(0,0,0,0.2)
+}
+.search::before{
+    content:"";
+    width: 15px;
+    height: 15px;
+    background:url(../images/home-common-sprite2x@v7.15.png) no-repeat 0 0;
+    background-size:22px auto;
+    position:absolute;
+    top:5px;left: 5px;
+}
+/* 搜索模块 */
+/* <!-- 焦点图模块 --> */
+.focus>img{
+width: 100%;
+margin-top: 44px;
+}
+/* <!-- 焦点图模块 --> */
+/* 局部导航栏 */
+
+
+
+
+
+
+
+
+
+
+
+
